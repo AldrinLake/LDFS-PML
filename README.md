@@ -10,10 +10,9 @@ This work proposes **LDFS-PML**, a novel two-stage framework that integrates lab
 - **Filter-Based Feature Selection with Cognition Computing**A new filter method is designed that combines global similarity preservation with local consistency, inspired by cognition computing, to obtain a compact and discriminative feature subset for PML.
 - **Two-Stage LDFS-PML Framework**The framework first performs label disambiguation to mitigate noise labels and then applies confidence-guided feature selection, ensuring both robustness and efficiency.
 
+![1757414897287](image/README/1757414897287.png)
 
-![1757414716992](image/README/1757414716992.png)
-
-![1757414739402](image/README/1757414739402.png)
+![1757414903940](image/README/1757414903940.png)
 
 ## Project Overview
 
