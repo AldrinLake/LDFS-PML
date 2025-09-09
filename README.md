@@ -89,8 +89,8 @@ Results will be placed under `disambiguation_result/noise_ratio_{noise}/`.
 
 ## Repository Structure
 
-Method/
 ├─ GranularBall.py      # Granular ball and GB list implementation
+
 ├─ Disambiguate.py      # Label disambiguation based on granular balls
 ├─ main.py              # Batch entry point with multiprocessing
 └─ disambiguation_result/  # Output directory created after running
