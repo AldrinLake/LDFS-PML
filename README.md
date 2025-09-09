@@ -10,7 +10,6 @@ This work proposes **LDFS-PML**, a novel two-stage framework that integrates lab
 - **Filter-Based Feature Selection with Cognition Computing**A new filter method is designed that combines global similarity preservation with local consistency, inspired by cognition computing, to obtain a compact and discriminative feature subset for PML.
 - **Two-Stage LDFS-PML Framework**The framework first performs label disambiguation to mitigate noise labels and then applies confidence-guided feature selection, ensuring both robustness and efficiency.
 
-
 ## Project Overview
 
 This project implements Partial Multi-Label disambiguation using Granular Balls. For each label, the method constructs and splits/merges granular balls in the feature space to obtain high-purity regions and compute confidence scores for positive labels. The confidence matrix is then row-normalized to produce soft labels for downstream learning.
@@ -21,7 +20,6 @@ Main components:
 - `Disambiguate.py`: Performs per-label disambiguation, computes confidence for each sample-label pair, row-normalizes, and returns the confidence matrix with runtime.
 - `main.py`: Batch runner with multiprocessing that processes specified datasets and noise settings and saves results.
 - 
-
 
 ## Environment & Dependencies
 
@@ -91,13 +89,11 @@ Results will be placed under `disambiguation_result/noise_ratio_{noise}/`.
 
 ## Repository Structure
 
-```
-stage1Disambiguation using granular ball/
+Method/
 ├─ GranularBall.py      # Granular ball and GB list implementation
 ├─ Disambiguate.py      # Label disambiguation based on granular balls
 ├─ main.py              # Batch entry point with multiprocessing
 └─ disambiguation_result/  # Output directory created after running
-```
 
 ## FAQ
 
